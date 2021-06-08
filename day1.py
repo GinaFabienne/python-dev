@@ -20,3 +20,15 @@ print ("Hello " +input("What is your name? "))
 #length of a string
 name1 = input("What is your name? ")
 print(len(name1)) 
+
+#python variables
+name = input("What is your name?")
+print(name)
+
+a = input("a: ")
+b = input("b: ")
+c = a
+a = b
+b = c
+print("a: " + a)
+print("b: " + b)
